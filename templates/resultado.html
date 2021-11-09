@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Bin2Dec</title>
+</head>
+<body>
+<h1>Resultado</h1>
+{% if resultado != '' %}
+<p>O número decimal referente ao número binário "{{ bin }}" é <b>{{ resultado }}.</b></p>
+{% else%}
+<p>{{ erro }}</p>
+{% endif %}
+</body>
+</html>
